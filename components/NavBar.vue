@@ -64,15 +64,15 @@ onUnmounted(() => {
     <nuxt-link class="icon-primary" to="/" data-key="index" title="Home">
       <div class="i-ri-home-smile-line" />
     </nuxt-link>
-    <nuxt-link class="icon-primary" to="/plans" data-key="plans" title="Plans">
+    <!-- <nuxt-link class="icon-primary" to="/plans" data-key="plans" title="Plans">
       <div class="i-ri-todo-line" />
-    </nuxt-link>
+    </nuxt-link> -->
     <nuxt-link class="icon-primary" to="/weekly" data-key="weekly" title="Weekly">
       <div class="i-ic-baseline-menu-book" />
     </nuxt-link>
-    <!-- <nuxt-link class="icon-primary" to="/bookmarks" data-key="bookmarks" title="Bookmarks">
+    <nuxt-link class="icon-primary" to="/bookmarks" data-key="bookmarks" title="Bookmarks">
     <div class="i-ic-round-bookmarks" />
-  </nuxt-link> -->
+  </nuxt-link>
     <nuxt-link class="icon-primary" to="/team-member" data-key="team-member" title="Team member">
       <div class="i-ri-team-line" />
     </nuxt-link>
