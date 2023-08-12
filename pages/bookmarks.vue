@@ -11,8 +11,6 @@ const options = {
   <page-wrapper v-bind="options">
     <div class="flex flex-wrap justify-between">
       <div
-        v-for="i in 21"
-        :key="i"
         class="px-16px py-8px mb-16px w-220px bg-primary cursor-pointer hover:shadow-inset"
       >
         <div class="flex items-center">

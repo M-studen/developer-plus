@@ -63,7 +63,7 @@ function handleClick(githubName) {
       </div>
     </page-module>
 
-    <page-module title="贡献者">
+    <!-- <page-module title="贡献者">
       <div class="flex flex-wrap justify-between">
         <div
           v-for="contributor in contributors"
@@ -74,6 +74,6 @@ function handleClick(githubName) {
           <img :src="`https://github.com/${contributor}.png`" :alt="contributor">
         </div>
       </div>
-    </page-module>
+    </page-module> -->
   </page-wrapper>
 </template>

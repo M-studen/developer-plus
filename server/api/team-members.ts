@@ -94,6 +94,7 @@ const teamMembers: ITeamMember[] = [
   {
    name:"咲琳君",
    tag:"core",
+   address:"Hunan,China",
    avatar:"https://pic.imgdb.cn/item/64d776031ddac507cc15e351.jpg" 
   }
 ]
