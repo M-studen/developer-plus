@@ -8,6 +8,11 @@ export default defineEventHandler(() => {
       link:"https://www.cnblogs.com/fyzz/",
       githubLink:"https://github.com/M-studen",
       QQnumber:"2358755283"
-    }
+    },
+    {
+      name:"咲琳君",
+      tag:"core",
+      avatar:"https://pic.imgdb.cn/item/64d776031ddac507cc15e351.jpg" 
+     }
   ]
 })
