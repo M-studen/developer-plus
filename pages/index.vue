@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import{beforeCreate}from 'vue'
 const TypeWriterData = await $fetch('/api/home/type-write')
 const TypeWriteProps = {
   time: 0.1,
@@ -15,9 +14,9 @@ function goToProject(link: string) {
   window.open(link)
 }
 
-beforeCreate(() => {
+onMounted(() => {
   if(window.screen.width<1226){
-    alert("您的窗口过小，请使用桌面模式或放大窗口")
+    alert("您的窗口过小，请打开桌面模式或放大窗口")
   }
 })
 </script>
