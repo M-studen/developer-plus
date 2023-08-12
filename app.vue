@@ -1,5 +1,5 @@
 <script setup>
-import beforeCreate from 'vue'
+import {beforeCreate}from 'vue'
 useHead({
   title: '虚鲲社',
   meta: [
