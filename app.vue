@@ -1,4 +1,5 @@
 <script setup>
+import beforeCreate from 'vue'
 useHead({
   title: '虚鲲社',
   meta: [
@@ -9,6 +10,11 @@ useHead({
       rel: 'icon', type: 'image/png', href: '/logo.png'
     }
   ]
+})
+beforeCreate(()=>{
+  if(window.screen.width<1226){
+    window.alert("您的窗口过小，请使用桌面模式或放大窗口")
+  }
 })
 </script>
 
