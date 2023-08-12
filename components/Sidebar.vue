@@ -12,7 +12,7 @@ const interview = data.value[0] ? data.value[0] : { title: '暂无数据', url: 
         developer-plus
       </h2>
       <div class="flex items-center text-lg">
-        <a class="icon-primary i-carbon-logo-github mr-8px" href="https://github.com/developer-plus" target="_blank" />
+        <a class="icon-primary i-carbon-logo-github mr-8px" href="https://github.com/M-studen/developer-plus" target="_blank" />
         <dark-toggle />
       </div>
     </div>
@@ -41,11 +41,11 @@ const interview = data.value[0] ? data.value[0] : { title: '暂无数据', url: 
       </h3>
 
       <div class="mt-16px opacity-70">
-        <p>添加微信号 `Hongbusi16530`，了解更多。</p>
+        <p>添加QQ群720962654，了解更多。</p>
       </div>
     </div>
 
-    <div class="mt-36px">
+    <!-- <div class="mt-36px">
       <h3 class="text-xl">
         快速入口
       </h3>
@@ -61,9 +61,9 @@ const interview = data.value[0] ? data.value[0] : { title: '暂无数据', url: 
           勘误/建议
         </a>
       </div>
-    </div>
+    </div> -->
 
-    <div class="mt-36px">
+    <!-- <div class="mt-36px">
       <h3 class="text-xl">
         每日一题
       </h3>
@@ -75,7 +75,7 @@ const interview = data.value[0] ? data.value[0] : { title: '暂无数据', url: 
       <a v-if="interview.url" class="btn-primary-small mt-16px" :href="interview.url" target="_blank">
         前往答题
       </a>
-    </div>
+    </div> -->
 
     <div class="mt-36px">
       <h3 class="text-xl">
@@ -93,7 +93,7 @@ const interview = data.value[0] ? data.value[0] : { title: '暂无数据', url: 
     </div>
 
     <footer class="mt-42px text-sm opacity-70">
-      Copyright © 2022 developer-plus, made with 💗.
+      Copyright © 2022 developer-plus, made with 诶嘿.
     </footer>
   </div>
 </template>

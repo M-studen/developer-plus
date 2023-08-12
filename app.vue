@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'developer-plus',
+  title: '虚鲲社',
   meta: [
     { name: 'description', content: '来源于开发者，服务于开发者。' }
   ],

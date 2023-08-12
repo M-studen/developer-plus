@@ -1,8 +1,8 @@
 const friendLink = [
   {
-    title: 'mini-vue',
-    link: 'https://github.com/cuixiaorui/mini-vue',
-    description: 'developer-plus 梦开始的地方。'
+    title: 'Fuyan-Blog',
+    link: 'https://www.cnblogs.com/fyzz/',
+    description: '开发者的博客'
   }
 ]
 
