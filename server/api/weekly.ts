@@ -5,7 +5,7 @@ const weeklyDataList: IWeeklyData[] = [
   {
     title: '虚鲲社官网成立啦',
     time: '2023-8-12',
-    link: 'xks.xwsclub.top'
+    link: 'https://xks.xwsclub.top'
   }
 ]
 
