@@ -1,11 +1,8 @@
 <script setup lang="ts">
 const weeklyOptions = {
-  title: '周刊',
+  title: '文章',
   subtitle: 'Weekly',
-  description: '记录每周值得分享的内容，周一发布。',
-  btnLink: 'https://github.com/developer-plus/weekly/issues/new/choose',
-  btnText: '周刊投稿',
-  githubLink: 'https://github.com/developer-plus/weekly'
+  description: '记录值得分享的内容',
 }
 
 const { data: weeklyData } = await useFetch('/api/weekly')

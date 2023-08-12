@@ -3,7 +3,7 @@ const options = {
   title: '书签',
   subtitle: 'Bookmarks',
   description: '收录有趣的网站。',
-  githubLink: 'https://github.com/developer-plus/bookmarks'
+  githubLink: 'https://github.com/M-studen/developer-plus'
 }
 </script>
 
