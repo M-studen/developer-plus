@@ -15,10 +15,9 @@ function goToProject(link: string) {
 }
 
 onMounted(() => {
-      
-  alert("您的窗口过小，请打开桌面模式或放大窗口")
+  console.log(window.screen.width);
   if(window.screen.width<1226){
-    console.log(window.screen.width);
+    alert("您的窗口过小，请打开桌面模式或放大窗口")
   }
 })
 </script>
