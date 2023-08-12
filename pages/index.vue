@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFireworks } from '~~/composables/useFireworks'
+import{beforeCreate}from 'vue'
 const TypeWriterData = await $fetch('/api/home/type-write')
 const TypeWriteProps = {
   time: 0.1,
@@ -15,8 +15,10 @@ function goToProject(link: string) {
   window.open(link)
 }
 
-onMounted(() => {
-  useFireworks()
+beforeCreate(() => {
+  if(window.screen.width<1226){
+    alert("您的窗口过小，请使用桌面模式或放大窗口")
+  }
 })
 </script>
 
