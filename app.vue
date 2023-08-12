@@ -6,7 +6,7 @@ useHead({
   ],
   link: [
     {
-      rel: 'icon', type: 'image/png', href: 'https://pic.imgdb.cn/item/64d783ef1ddac507cc377439.jpg'
+      rel: 'icon', type: 'image/png', href: '/logo.png'
     }
   ]
 })
