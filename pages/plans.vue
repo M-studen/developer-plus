@@ -5,7 +5,7 @@ import type { FetchTodoListParams } from '~/types'
 const pageOptions = {
   title: '开发计划',
   subtitle: 'Plans',
-  description: 'developer-plus 待办事项列表。',
+  description: '虚鲲社待办事项列表。',
   btnLink: 'https://github.com/developer-plus/plans/issues/new/choose',
   btnText: '新增计划',
   githubLink: 'https://github.com/developer-plus/plans'

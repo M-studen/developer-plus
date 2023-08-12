@@ -4,9 +4,9 @@ import type { ITeamMember } from '~/types/team-member'
 const options = {
   title: '团队成员',
   subtitle: 'Team member',
-  description: 'developer-plus 成员以及开源社区贡献者，其中一些选择在下面进行介绍。',
+  description: '虚鲲社的一些成员，其中一些选择在下面进行介绍。',
   btnText: '加入我们',
-  btnLink: 'https://github.com/developer-plus/developer-plus/issues/23'
+  btnLink: 'https://qm.qq.com/cgi-bin/qm/qr?k=UJN-KGywsBywATHW24jr0WzTMrSHng0T&jump_from=webapi&authKey=fVN6A+APkCpUsjQRhTKdfTpQJh+ujTUqAg3XCgAuErBt3huZqJEYJR5mn+Mn02mw'
 }
 
 const members = await $fetch<ITeamMember[]>('/api/team-members')
@@ -54,7 +54,7 @@ function handleClick(githubName) {
             <p class="flex items-center mt-8px">
               <a class="icon-primary i-carbon-logo-github mr-8px" :href="member.githubLink" target="_blank" />
               <a
-                v-if="member.twitterLink" class="icon-primary text-xl i-carbon-logo-twitter" :href="member.twitterLink"
+                v-if="member.QQnumber" class="icon-primary text-xl i-carbon-logo-qq" :href="member.QQnumber"
                 target="_blank"
               />
             </p>

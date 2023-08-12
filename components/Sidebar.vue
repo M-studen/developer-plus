@@ -9,7 +9,7 @@ const interview = data.value[0] ? data.value[0] : { title: '暂无数据', url: 
   <div class="px-32px py-24px w-380px min-h-screen border-l border-gray-200 dark:border-gray-200/20">
     <div class="flex justify-between">
       <h2 class="text-2xl">
-        developer-plus
+        虚鲲社
       </h2>
       <div class="flex items-center text-lg">
         <a class="icon-primary i-carbon-logo-github mr-8px" href="https://github.com/M-studen/developer-plus" target="_blank" />

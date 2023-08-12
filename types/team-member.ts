@@ -4,6 +4,7 @@ export interface ITeamMember {
   tag: string
   address: string
   link?: string
-  githubLink: string
+  githubLink?: string
   twitterLink?: string
+  QQnumber?:string
 }
