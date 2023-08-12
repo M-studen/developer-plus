@@ -7,12 +7,13 @@ useHead({
   ],
   link: [
     {
-      rel: 'icon', type: 'image/png', href: '/logo.png'
+      rel: 'icon', type: 'image/png', href: 'https://pic.imgdb.cn/item/64d783ef1ddac507cc377439.jpg'
     }
   ]
 })
 beforeCreate(()=>{
   if(window.screen.width<1226){
+    console.log(window.screen.width);
     window.alert("您的窗口过小，请使用桌面模式或放大窗口")
   }
 })
