@@ -2,7 +2,7 @@
 useHead({
   title: '虚鲲社',
   meta: [
-    { name: 'description', content: '来源于开发者，服务于开发者。' }
+    { name: 'description', content: '主要制作原创galgame向游戏，漫画，小说' }
   ],
   link: [
     {

@@ -18,7 +18,7 @@ const interview = data.value[0] ? data.value[0] : { title: '暂无数据', url: 
     </div>
 
     <div class="mt-16px opacity-70">
-      来源于开发者，服务于开发者。
+      主要制作原创galgame向游戏，漫画，小说
     </div>
 
     <div class="mt-36px">
