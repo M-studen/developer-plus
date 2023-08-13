@@ -25,7 +25,7 @@ onMounted(() => {
 <template>
   <div>
     <div class="element" />
-    <div class="mt-32px px-36px py-26px bg-black text-white rounded">
+    <div class="mt-32px px-36px py-26px text-white rounded typewrite">
       <div class="text-3xl">
         Hi，你好 <span class="ml-10px">👋</span>
       </div>
@@ -67,3 +67,8 @@ onMounted(() => {
     </page-module>
   </div>
 </template>
+<style>
+.typewrite{
+  background-color: aqua;
+}
+</style>
