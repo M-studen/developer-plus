@@ -69,6 +69,6 @@ onMounted(() => {
 </template>
 <style>
 .typewrite{
-  background-color: aqua;
+  background-image: url("https://pic.imgdb.cn/item/64d836e91ddac507cce35a80.jpg");
 }
 </style>

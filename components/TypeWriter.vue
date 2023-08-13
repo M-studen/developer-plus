@@ -128,7 +128,7 @@ const $color = $computed(() => props.colorAutoChange ? color.value === 'dark' ? 
   width: 2px;
   height: 46px;
   line-height: 2rem;
-  background-color:red;
+  background-color: v-bind("$color");
   right: -10px;
 }
 
